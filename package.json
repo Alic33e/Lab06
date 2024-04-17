@@ -2,9 +2,13 @@
   "name": "lab06",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     
+=======
+    "start": "nodemon app.js",
+>>>>>>> 38d683af4abc8f37b1f02539b8be6616a6f2a956
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,5 +17,8 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
